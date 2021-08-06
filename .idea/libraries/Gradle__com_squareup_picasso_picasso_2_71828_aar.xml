@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.picasso:picasso:2.71828@aar">
+    <CLASSES>
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/da021dc7b2eb5fd7d6ca71318d9c3a58/AndroidManifest.xml" />
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/da021dc7b2eb5fd7d6ca71318d9c3a58/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/da021dc7b2eb5fd7d6ca71318d9c3a58/res" />
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/58214c297e8f1386b54bafcbb39a5ad0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/58214c297e8f1386b54bafcbb39a5ad0/AndroidManifest.xml" />
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/58214c297e8f1386b54bafcbb39a5ad0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.71828/2843564e6bac90b1e125104d7c842c87a96a8ee9/picasso-2.71828-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.71828/41874e20a4d17fd4ad2052ac217073e14d00c910/picasso-2.71828-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Traffic Management System</string>
+    <string name="select_image_for_text_recognition">Select image for text recognition</string>
+    <string name="find_text_button">Find text</string>
+    <string name="find_face_contour_button">Find face contour</string>
+    <string name="find_text_cloud_button">Find text (cloud)</string>
+    <string name="find_objects_button">Find objects</string>
+    <string name="db_drop">DROP TABLE IF EXISTS</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender:</string>
+</resources>

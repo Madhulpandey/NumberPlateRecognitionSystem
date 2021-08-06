@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFB6C1"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/download"
+        android:onClick="ClickLogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Traffic Management System"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickHome">
+        
+        <TextView
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:text="First Name:"
+            android:id="@+id/profileFname"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="DashBoard">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Last Name:"
+            android:id="@+id/profileLname"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickAboutUs">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:text="EMAIL"
+            android:textSize="20sp"
+            android:id="@+id/profileEmail"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/LogOutBtn"
+        android:text="Log Out"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

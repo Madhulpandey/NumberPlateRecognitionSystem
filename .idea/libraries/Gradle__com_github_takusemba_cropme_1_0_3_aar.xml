@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.takusemba:cropme:1.0.3@aar">
+    <CLASSES>
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/b2a1c770481c5fc623855cc71b0dfb9b/AndroidManifest.xml" />
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/b2a1c770481c5fc623855cc71b0dfb9b/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/b2a1c770481c5fc623855cc71b0dfb9b/res" />
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/4513a3f513b16988da1d7f82d46c7052/res" />
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/4513a3f513b16988da1d7f82d46c7052/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-6.6-rc-1/caches/transforms-2/files-2.1/4513a3f513b16988da1d7f82d46c7052/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/Gradle/gradle-6.6-rc-1/caches/modules-2/files-2.1/com.github.takusemba/cropme/1.0.3/47fe528490e1d2e866f73a8caea14471ce2a8cb4/cropme-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

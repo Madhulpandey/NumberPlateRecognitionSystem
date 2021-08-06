@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/menu"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:onClick="ClickMenu"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TRAFFIC MANAGEMENT"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <ImageView
+        android:src="@drawable/refresh"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:onClick="ClickRefresh"
+        />
+    
+</LinearLayout>

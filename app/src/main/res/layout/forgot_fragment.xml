@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:hint="Email ID"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:id="@+id/inputLayoutEmail"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:id="@+id/FEmailID"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/FoffSpinnerReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/mailBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:id="@+id/FsecQueAns"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/newPwBtn"
+        android:text="Check  Details"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:hint="New Password"
+        app:errorEnabled="true"
+        android:layout_margin="4dp"
+        android:visibility="invisible"
+        android:id="@+id/FLayoutPassword"
+        android:layout_width="match_parent"
+        app:endIconMode="password_toggle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            app:counterEnabled="true"
+            android:id="@+id/Fpassword_et"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:hint="Confirm Password"
+        app:errorEnabled="true"
+        app:endIconMode="password_toggle"
+        android:layout_margin="4dp"
+        android:visibility="invisible"
+        android:id="@+id/FLayoutCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+
+            android:inputType="textPassword"
+            android:id="@+id/Fcpassword_et"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:id="@+id/changePwButton"
+        android:text="Change Password"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
